@@ -1,0 +1,20 @@
+{
+  "name": "graphaql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "node_modules\\.bin\\ngulp build",
+    "dev": "node_modules\\.bin\\nodemon --delay 5 dist\\app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "0.3.2",
+    "gulp-typescript": "3.2.2",
+    "nodemon": "^1.19.1",
+    "typescript": "2.5.3"
+  }
+}
